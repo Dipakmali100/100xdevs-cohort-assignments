@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Connect to MongoDB
-mongoose.connect('mongoDB-database-url');
+mongoose.connect('mongoDB-database-url'); // update this url when you are working on this assignment locally
 
 // Define schemas
 const AdminSchema = new mongoose.Schema({
